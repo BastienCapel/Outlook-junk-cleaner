@@ -1,0 +1,9 @@
+[project]
+name = "outlook-junk-cleaner"
+version = "0.1.0"
+description = "Workflow Mistral : déplace les mails indésirables Outlook vers les éléments supprimés."
+requires-python = ">=3.12"
+dependencies = [
+    "mistralai-workflows[mistralai]>=3.10",
+    "pydantic>=2",
+]
